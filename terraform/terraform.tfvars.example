@@ -1,0 +1,7 @@
+# Example terraform.tfvars for VisionSet
+azure_subscription_id = "<your-azure-subscription-id>"
+hcp_vault_address    = "https://<your-hcp-vault-cluster>.vault.azure.hashicorp.cloud:8200"
+hcp_vault_token      = "<your-hcp-vault-token>"
+# Optionally override region or resource group name
+# azure_region = "westeurope"
+# resource_group_name = "visionset-rg" 
